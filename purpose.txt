@@ -12,3 +12,5 @@ this file will be used to add all the git commands that i know and learn about g
 	-git log		is for finding out the changes that were made to a file
 	-git status 		is for getting the status of a file, is it initialized, is it committed and so forth
 	-git restore --staged <>is for unadding a file that has been git add .
+	-git reset <log #> 	is for resetting to a point in time, basically undoing the changes and restarting.
+	-git stash		is for stashing files to an area but no pushing / commiting them
