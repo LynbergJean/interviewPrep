@@ -18,5 +18,7 @@ this file will be used to add all the git commands that i know and learn about g
 	-git stash clear	is for deleting all stashed files
 	-git remote add origin  is to set up a path to the github link you will be pushing to
 	-git remote -v		is to find which folder we're pusing to
-
+	-git branch <newBranch> is to create a new branch
+	-git checkout <branchName> is going to point to the branch youve made, can also git checkout main
+	-git merge <branchName> is going to merge the branch changes to main
 
