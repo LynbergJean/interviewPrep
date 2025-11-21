@@ -1,0 +1,14 @@
+this file will be used to add all the git commands that i know and learn about git in general:
+
+	-mkdir 			is for creating a directory
+	-cd    			is for changing directory
+	-git init 		is for initializing a repository
+	-git commit -m ""	is for commiting it is not up in the cloud yet up to that point
+	-git push		is for pushing it to the cloud
+	-touch 			is for creating a new file
+	-nano 			is for editing a file 
+	-vi			is also for editing a file
+	-cat 			is for displaying what is in the file
+	-git log		is for finding out the changes that were made to a file
+	-git status 		is for getting the status of a file, is it initialized, is it committed and so forth
+	-git restore --staged <>is for unadding a file that has been git add .
