@@ -21,4 +21,10 @@ this file will be used to add all the git commands that i know and learn about g
 	-git branch <newBranch> is to create a new branch
 	-git checkout <branchName> is going to point to the branch youve made, can also git checkout main
 	-git merge <branchName> is going to merge the branch changes to main
+	-git clone <link>	is going to download a project into you desktop
+	-git remote add upstream<url> is the upstream url from where you cloned the project from	
+	-git rm path/to/file       # delete locally and from GitHub
+	-git rm --cached path/to/file  # keep local, remove from GitHub
 
+what is a pull request?
+	- 
