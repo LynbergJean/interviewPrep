@@ -1,0 +1,49 @@
+java is platform independent but the jvm is platform dependent, the java source code is compiled into a 
+.class file and in that .class file is the bytecode and then the byte code is then transformed into machine
+code by the JVM using the Interpreter and JIT just in time compiler. 
+
+in C++ and other languages is it different c++ is platform dependant and so the source code in c++ is turned
+into an executable file and in that file contains the machine code. 
+
+a linked list is better than using an array when we don't know the final size ahead of time, in a linked list
+you can continuously you do not need a fixed size ahead you can grow your datatructure as you need. 
+adding to the head of a linked list is O(1) but for an array its O(n) because you need to deacllocate the 
+array and create a new array witht the new udpdated size.
+when you need fast insertions and deletions in the middle. 
+when youre doing a lot of insertions and deletions at the head.
+
+What is a pointer?
+- it is a variable that is holding the memory address of another variable intead of having a value itself.
+and that lets you indirectly access that memory directly and change the value in that mem or read that value.
+
+A NULL pointer is a pointer that does not point to any valid memory address in memory.
+
+pointers allow you to indirectly access memory addresses and manipulate the data in that address.
+
+A stack is different than a queue in their principles a stack has the principle LIFO last in first out
+ and a queue has the principle FIFO first in first out. they differ in the order that their contents can be accessed.
+a stack is used for DFS and a queue is used for BFS. 
+stack operations are push pop peek
+and queue operations are enqueue dequeue and front.
+
+
+selection sort is O(N^2) and mergeSort is O(N log N) meaning mergeSort is faster than selection sort.
+
+a compiled language is compiled into an exe which gives us machine code and that is ran on the hardware.
+compiled languages are platform dependant whereas an interpreted language like java is platfom independant
+it is first transformed into a .class file which is the byte code and the jvm which is platform dependant 
+translates the bytecode into machine code and that is in turn ran on the hardware.
+
+I was wrong in interpreted languages the interpreter executess the code line by line at runtime. the same 
+source code can run on any machine that has that interpreter making these interpreted languages platform in
+depent.
+
+a garbage collector in java is when the reference to an object is gone its job is to go and automatically free 
+up the memory that that object occupied which helps in preventing memory leaks. 
+
+
+a strongly typed language enforeces data types and rules on how data types can be used for example you can do 
+operations on 2 different data types without first doing a type conversion. while in weakly typed languages is 
+more flexible in that regard. 
+
+recursio
