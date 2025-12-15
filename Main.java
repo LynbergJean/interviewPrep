@@ -7,14 +7,27 @@ import java.util.*;
 //it is not related to the object, 
 
 /*static means object independant.*/
+
+/*why is main static for what purpose do we use static we use so it can be used by everything?? 
+no makes no sense.
+
+inside a static method you cannot use non static data
+since main is static we cannot use non static methods inside main
+the non static methods belong to an object and the static ones do not  */
+
+
 class Human{
 	int age;
 	String name;
 	int salary;
 	boolean married;
 	static int population;
-
-
+	
+	void pop()
+	{
+		System.out.println(Human.population);
+	}
+	
 	Human()
 	{
 		Human.population += 1;
@@ -44,5 +57,6 @@ public class Main{
 		Human caleb = new Human();
 		Human lynberg = new Human(21,"Lynberg",16,false);
 		System.out.println(lynberg.population);
+		lynberg.pop();
 	}
 }
