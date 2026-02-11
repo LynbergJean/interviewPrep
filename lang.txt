@@ -1,0 +1,69 @@
+difference between functional, precedural and OOP languages
+
+-prog languages are what we use to tell a computer to do specific things
+
+procedural
+	-its imperative is to write step by step execution, the program's logic is driven by control flow.
+	an example is c, Go.
+
+functional 
+	-declarative, expression based
+	Programs are built by composing pure functions — functions with no side effects and no 
+	reliance on shared data.
+
+Object oriented
+	-Logic is distributed across objects that maintain their own state and behavior.
+	examples are Java, C++, C#
+
+	key characterisitics of OOP are:
+	encapsulation:
+		- hiding the internal state of a program.
+
+	inheritance:
+		-sharing behavior through class hierarchies
+	
+	abstraction:
+		-giving users access to only what is required.
+
+	polymorphism: 
+		-Same interface, different behavior
+
+
+an object is Code + data.
+
+static vs Dynamic languages
+
+Static: 
+	-performs type checking at compile time
+	-errors will show at compile time
+	-declare the datatype before you use it
+	-more control
+
+Dynamic:
+	-performs type checking at runtime.
+	-error will not be shown till the program is ran.
+	-new need to declare datatypes of variables.
+	-helps save time when writing error but might give error at run time.
+
+
+Strong vs weakly typed languages
+		- how strict does the language enforce data types.
+
+	Strong: 
+	-you cannot mix incompatible types.
+	python, java, c#
+
+	weak:
+ 	-you can somtimes coerce data types.
+	c, c++, javaScript
+
+
+a stack is a type of mem that is automatically being used and managed by the CPU / compiler
+while a heap is mem that is controlled by the programmer and can be allocated and deallocated or garbage a 
+garbage collector.
+
+a variable in stack memory. 
+java uses pass by reference variable.
+
+Garbage Collector.
+when there is no reference variable to an oject the garbage collector goes and frees that memory.
